@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigate real time crime hotspots for Womens' Safety | Safety Innovators</title>
+    <link rel="stylesheet" href="hotspots.css">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/3061/3061744.png" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"> -->
+
+</head>
+<body>
+    <header>
+        <h1>Real-Time Crime Hotspot Map</h1>
+    </header>
+    <main>
+        <section id="map-section">
+            <iframe src="location_map.html" id="map-frame"></iframe>
+        </section>
+        <section id="file-section">
+            <h2>Real-Time Data</h2>
+            <div id="file-list"></div>
+        </section>
+    </main>
+    <script src="hotspots.js"></script>
+</body>
+</html>
